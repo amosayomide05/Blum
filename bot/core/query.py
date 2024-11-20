@@ -534,10 +534,7 @@ class Tapper:
                     if settings.ADVANCED_ANTI_DETECTION:
                         logger.warning(
                             "<yellow>Detected index js file change. Contact me to check if it's safe to continue: https://t.me/vanhbakaaa</yellow>")
-                    else:
-                        logger.warning(
-                            "<yellow>Detected api change! Stopped the bot for safety. Contact me here to update the bot: https://t.me/vanhbakaaa</yellow>")
-
+                    
                 if can_run:
                     if token is None:
                         tg_web_data = self.query
